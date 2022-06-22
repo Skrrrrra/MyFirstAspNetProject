@@ -1,0 +1,22 @@
+﻿
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<link rel="stylesheet" href="assets/css/main.css" />
+
+@if(ViewBag.Title != null)
+{
+    <title>@ViewBag.Title</title>
+}
+else
+{
+    <title>MyCompany</title>
+}
+
+@if(ViewBag.Description != null)
+{
+    <meta name="Description" content="@ViewBag.Description"/>
+}
+else
+{
+    <meta name="keywords" content="@ViewBag.Keywords"/>
+}
