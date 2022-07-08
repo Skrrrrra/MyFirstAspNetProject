@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using something.Service;
 
 namespace something.Controllers
 {
@@ -6,7 +7,11 @@ namespace something.Controllers
     {
         public IActionResult Index()
         {
+            Service.Config.Name = "MySuperCompany";
+
             return View();
         }
+        
+        
     }
 }
