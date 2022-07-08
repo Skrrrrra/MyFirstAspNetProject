@@ -9,5 +9,15 @@ namespace something.Controllers
         {
             return View();
         }
+
+        public IActionResult AboutAss()
+        {
+            return View();
+        }
+
+        public IActionResult Customers()
+        {
+            return View();
+        }
     }
 }

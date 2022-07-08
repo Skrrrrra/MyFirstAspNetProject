@@ -1,4 +1,5 @@
 ﻿@import url("https://fonts.googleapis.com/css?family=Ubuntu+Condensed");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 /*
 	Minimaxing by HTML5 UP
 	html5up.net | @ajlkn
@@ -83,12 +84,12 @@ html {
   width: device-width;
 }
 body {
-  font-size: 13.5pt;
-  font-family: sans-serif;
-  background-color: #e3e9dc;
-  font-family: "Ubuntu Condensed", sans-serif;
-  color: #878e83;
-  letter-spacing: -1px;
+    font-size: 13.5pt;
+    font-family: sans-serif;
+    background-color: #e3e9dc;
+    font-family: "Montserrat", sans-serif;
+    color: #878e83;
+    letter-spacing: -1px;
 }
 
 h1, h2, h3, h4 {
