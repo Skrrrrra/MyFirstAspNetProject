@@ -98,7 +98,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  text-transform: lowercase;
+  
 }
 
 h2 {
@@ -1231,7 +1231,6 @@ ul.link-list li:first-child {
   right: 40px;
   top: 1px;
   line-height: 84px;
-  text-transform: lowercase;
   font-size: 1.3em;
   letter-spacing: -1px;
 }
